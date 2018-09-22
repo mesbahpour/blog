@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>users</title>
+</head>
+<body>
+<% users.forEach(function(user){ %>
+    <h3><%=user.username%></h3>
+    <h5><%=user.password%></h5>
+    <h5><%=user.createDate%></h5>
+    
+<% }) %>
+</body>
+</html>
